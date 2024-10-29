@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .navbar {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .sidebar {
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            color: black;
+        }
+
+        .sidebar i {
+            margin-right: 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project-content {
+            display: flex;
+            align-items: flex-start; /* 对齐方式，可以根据需要调整 */
+            gap: 20px; /* 图片和文字之间的间距 */
+        }
+
+        .project img {
+            width: 300px; /* 设置图片宽度 */
+            height: auto; /* 保持图片比例 */
+            object-fit: cover; /* 确保图片不变形 */
+        }
+
+        .text-content {
+            flex: 1; /* 让文字内容占据剩余空间 */
+        }
+
+        .text-content p {
+            margin: 0 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link active" aria-current="page" href="#">Homepage</a>-->
+<!--            </li>-->
+            <li class="nav-item">
+                <a class="nav-link" href="#about_me">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#educations">Educations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#work_experience">Work Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#volunteer_experience">Volunteer Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 sidebar">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            <h3>Philip Guan</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Morley, Western Australia</p>
+            <a href="mailto:chouguai@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/ao-guan-9b921397/"><i class="fab fa-linkedin"></i> Linkedin</a>
+            <a href="https://github.com/LeitG"><i class="fab fa-github"></i> Github</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-9 content">
+            <h2 id="about_me">About Me</h2>
+            <p>
+                I am a dedicated Data Analyst with a solid background in computer science and data analytics, focusing
+                on projects related to accessibility and public good. I have experience analyzing disability data to
+                generate valuable insights, new perspectives, and data-driven solutions. I am proficient in leveraging
+                analytical tools to extract meaningful information, optimize resources, and clearly communicate findings
+                to diverse audiences.
+            </p>
+            <h3 class="section-title" id="educations">Educations</h3>
+            <ul>
+                <li>2022 - 2024. Bachelor of Science (Honours) in Computer Science, First Class Honours, <a href="https://au.linkedin.com/school/university-of-queensland/?trk=public_profile_school">The University
+                    of Queensland. </a>
+                    <ul>
+                        <li>Honours Thesis: 'Improving Tourism Accessibility with Data Analytics'</li>
+                        <li>Supervised by <a href="https://about.uq.edu.au/experts/27868"> Dr. Rocky Chen </a></li>
+                    </ul>
+                </li>
+                <li>2020 - 2020. Undergraduate Diploma in Data Science, <a href="https://au.linkedin.com/school/university-of-western-australia/?trk=public_profile_school"> The University of Western Australia. </a>
+                    <ul>
+                        <li>WAM: 83.5, GPA: 6.75</li>
+                    </ul>
+                </li>
+                <li>2016 - 2019. Bachelor's Degree in Computer Science, <a href="https://au.linkedin.com/school/university-of-western-australia/?trk=public_profile_school"> The University of Western Australia. </a></li>
+            </ul>
+
+            <h3 class="section-title" id="work_experience">Work Experience</h3>
+            <ul>
+                <li>July 2024 - Present. <a href="https://au.linkedin.com/company/healthsupportservices?trk=public_profile_experience-item_profile-section-card_subtitle-click"> Inventory Officer, Health Support Services (WA health system). </a>
+                    <ul>
+                        <li>Managed inventory control and supply chain operations</li>
+                        <li>Utilized Oracle Inventory Management, Excel, and Power BI for data tracking and
+                            forecasting
+                        </li>
+                        <li>Ensured compliance with healthcare standards</li>
+                    </ul>
+                </li>
+                <li>November 2023 - June 2024. Data Analytics Research Assistant, <a href="https://au.linkedin.com/school/university-of-western-australia/?trk=public_profile_school">The University of Queensland. </a>
+                    <ul>
+                        <li>Worked with Dr. Rocky Chen, Dr. Jie Wang and Dr. Josephine Previte</li>
+                        <li>Complemented honours thesis: 'Improving Tourism Accessibility with Data Analytics'</li>
+                    </ul>
+                </li>
+                <li>October 2022 - February 2024. Procurement Officer, <a href="https://au.linkedin.com/company/vikal-international?trk=public_profile_experience-item_profile-section-card_subtitle-click"> Vikal International - Luxury Superyacht </a>
+                    Tenders.
+                </li>
+                <li>February 2022 - November 2022. UQ AI Collaboratory Artificial Intelligence Internship, <a href="https://au.linkedin.com/school/university-of-western-australia/?trk=public_profile_school"> The
+                    University of Queensland. </a>
+                    <ul>
+                        <li>Project 1: 'Exploring and Modelling User Behaviour for Judging Misinformation'</li>
+                        <li>Supervised by Dr Joel Mackenzie & Prof. Gianluca Demartini</li>
+                        <li>Project 2: 'Automated Quality Rating of Educational Content'</li>
+                        <li>Supervised by A/Prof. Hassan Khosravi & Dr Ali Darvishi</li>
+                    </ul>
+                </li>
+                <li>January 2021 - September 2022. <a href="https://au.linkedin.com/company/midlandbrick?trk=public_profile_experience-item_profile-section-card_subtitle-click">Maintenance Planner, Midland Brick.</a></li>
+            </ul>
+            <h3 class="section-title" id="volunteer_experience">Volunteer Experience</h3>
+            <ul>
+                <li>March 2018 - April 2021. Animal Engagement Volunteer, <a href="https://au.linkedin.com/company/rspca-australia?trk=public_profile_volunteering-position_profile-section-card_subtitle-click">RSPCA Australia.</a>
+                    <ul>
+                        <li>Supported animal care and socialized pets, mainly dogs</li>
+                        <li>Assisted with enrichment activities for animals</li>
+                        <li>Educated visitors on responsible pet ownership and adoption</li>
+                        <li>Contributed to animal welfare initiatives</li>
+                    </ul>
+                </li>
+                <li>July 2017 - July 2019. UniMentor, <a href="https://au.linkedin.com/school/university-of-western-australia/?trk=public_profile_volunteering-position_profile-section-card_subtitle-click"> The University of Western Australia. </a>
+                    <ul>
+                        <li>Shared valuable knowledge with new students during UWA Open Day and Orientation Week</li>
+                        <li>Contributed to UWA's commitment to assisting students in transitioning to university study
+                        </li>
+                        <li>Provided guidance and support to incoming students</li>
+                    </ul>
+                </li>
+                <li>February 2019 - March 2019. Project Presenter, <a href="https://au.linkedin.com/school/university-of-western-australia/?trk=public_profile_volunteering-position_profile-section-card_subtitle-click">The University of Western Australia.</a>
+                    <ul>
+                        <li>Supported Dr. Naveed Akhtar during the Computer Science Faculty Open Day</li>
+                        <li>Showcased ongoing projects to prospective students</li>
+                        <li>Explained technical concepts and inspired interest in the Computer Science program</li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <!--            <h3 class="section-title">Experiences</h3>-->
+            <!--            <ul>-->
+            <!--                <li>2024.05 - Present. <a href="#">Alibaba DAMO Academy</a>, Hangzhou. Research Intern.</li>-->
+            <!--                <li>2023.09 - 2024.05. <a href="#">Ant Group</a>, Hangzhou. Research Intern. Led by <a href="#">Xinyi-->
+            <!--                    Fu</a> and <a href="#">Dr. Xing Fu</a>.-->
+            <!--                </li>-->
+            <!--                <li>2021.10 - 2023.08. <a href="#">Megvii Research</a>, Nanjing. Research Intern. Led by <a href="#">Renjie-->
+            <!--                    Song</a>.-->
+            <!--                </li>-->
+            <!--            </ul>-->
+
+            <h3 class="section-title" id="projects">Projects</h3>
+            <div class="project">
+                <div class="project-content">
+                    <img src="project.jpg" alt="Project Image">
+                    <div class="text-content">
+                        <p><strong>Improving Tourism Accessibility with Data Analytics</strong></p>
+                        <p>
+                            <a href="#"><i class="fab fa-github">[Code]</i></a>
+                        </p>
+                        <p>
+                            We're developing a travel accessibility profiling system that aims to enhance tourism
+                            services for people with disabilities. By analyzing social media data and online reviews,
+                            we're identifying key accessibility attributes and sentiments across different disability
+                            groups. Our goal is to create accessibility-aware location recommendations using advanced
+                            data science techniques, including natural language processing and sentiment analysis. This
+                            project not only contributes to more inclusive tourism but also provides valuable hands-on
+                            experience in cutting-edge data analytics and research methodologies
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
